@@ -1,0 +1,51 @@
+body {
+  font-family: "Open Sans", serif;
+ margin: 0;
+ padding: 0;
+ background-color: #96B3C2;
+}
+.main{
+  
+  text-align: center;
+}
+.container{
+  background-image: url('./weather.jpg');
+  background-size: 100% 100%;
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+form{
+  padding: 20px;
+}
+form input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+}
+form button{
+  background-color: transparent;
+  padding: 10px 20px;
+  color: #96B3C2;
+  outline: none;
+  border:2px solid #96B3C2;
+  font-size: 15px;
+}
+p{
+  color: rgb(208, 222, 243);
+  font-size: large;
+  font-weight: bold;
+}
+p span{
+  color: #96B3C2;
+ 
+}
+
